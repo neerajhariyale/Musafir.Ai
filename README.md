@@ -1,12 +1,37 @@
-# React + Vite
+# Musafir AI 🌍✈️
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+**Musafir AI** is an intelligent trip planner powered by the **Gemini API**. It helps users effortlessly plan personalized travel itineraries, offering smart recommendations for destinations, stays, activities, and more. Whether you're a solo traveler or planning a group trip, Musafir AI makes travel planning smarter, faster, and easier!
 
-Currently, two official plugins are available:
+🔗 **Live Demo**: [Musafir AI](https://musafir-ai.vercel.app/)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## Expanding the ESLint configuration
+## 🚀 Features
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+✈️ Plan personalized trips with ease  
+🏨 Get recommendations for destinations, hotels, and activities  
+⚡ Powered by Gemini API for intelligent suggestions  
+🎨 Clean and user-friendly interface  
+🌐 Fully responsive design  
+
+---
+
+## ⭐ Support & Contribute
+
+If you like this project, consider giving it a ⭐ star on GitHub — it motivates me to improve it further!  
+Your support helps the repository rank higher and reach more people.
+
+### How you can help:
+
+⭐ Star this repository  
+🐞 Report issues and bugs  
+📢 Share it with others  
+🚀 Contribute by submitting pull requests  
+
+---
+
+## 🔧 Tech Stack
+
+- **Frontend**: React.js  
+- **API**: Gemini API  
+- **Deployment**: Vercel  
