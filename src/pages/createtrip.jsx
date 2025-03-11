@@ -234,8 +234,6 @@ function CreateTrip() {
           </Button>
         </DialogContent>
       </Dialog>
-
-      <Footer/>
     </div>
   );
 }
