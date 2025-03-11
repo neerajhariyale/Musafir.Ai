@@ -6,15 +6,15 @@ import laptop from "../assets/laptop.png";
 
 const Hero = () => {
   return (
-    <div className="flex flex-col items-center mx-56 gap-9 mt-16 mb-4 ">
-      <h1 className="font-bold text-[40px] sm:text-[50px] md:text-[60px] lg:text-[70px] xl:text-[80px] text-center">
+    <div className="flex flex-col  m-4 gap-9 mt-16 mb-4  lg:mx-84 xl:mx-84 md:mx-64">
+      <h1 className="font-bold text-[40px] sm:text-[50px] md:text-[60px] lg:text-[70px] xl:text-[80px] justify-baseline items-baseline md:text-center xl:text-center lg:text-center">
         {" "}
         <span className="text-[#f56551]">
           Your Journey, Our AI. Perfectly Planned!
         </span>{" "}
         Musafir.Ai
       </h1>
-      <p className="text-base sm:text-lg md:text-xl lg:text-2xl xl:text-3xl text-gray-500 text-center">
+      <p className="text-base sm:text-lg md:text-xl lg:text-2xl xl:text-3xl text-gray-500 justify-baseline items-baseline  md:text-center xl:text-center lg:text-center">
         Your personal trip planner and travel curator, creating custom
         itineraries tailored to your interests and budget.
       </p>
@@ -22,7 +22,7 @@ const Hero = () => {
       <Link to={"/create-trip"}>
         <Button
           className={
-            "h-10 hover:scale-105 hover:shadow-2xl cursor-pointer transition-all duration-100"
+            "h-10 hover:scale-105 hover:shadow-2xl cursor-pointer transition-all duration-100 flex justify-self-center  "
           }
         >
           Get Started, it's Free
@@ -32,7 +32,7 @@ const Hero = () => {
       <img
         src={laptop}
         alt=""
-        className="h-[400px] sm:h-[500px] md:h-[600px] lg:h-[700px] xl:h-[800px]"
+        className="h-[300px] w-[400px] sm:h-[400px] sm:w-[500px] md:h-[700px] md:w-[850px]  lg:h-[700px]  lg:w-[850px] xl:h-[700px]  xl:w-[850px]"
       />
 
       <Footer />

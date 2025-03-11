@@ -84,7 +84,7 @@ const Navbar = () => {
 
       <div>
         {users ? (
-          <div className="flex gap-1 sm:gap-1 md:gap-2 lg:gap-3 xl:gap-4 items-center">
+          <div className="flex sm: gap-1 sm:gap-1 md:gap-2 lg:gap-3 xl:gap-4 items-center">
             <a href="/create-trip">
               <Button variant="outline" className="rounded-full">
                 + Create Trip
