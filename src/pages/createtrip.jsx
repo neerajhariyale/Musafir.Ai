@@ -80,7 +80,7 @@ function CreateTrip() {
       .replace("{budget}", formData?.budget)
       .replace("{totalDays}", formData?.numberOfDays);
 
-    //console.log(FINAL_PROMPT);
+    console.log(FINAL_PROMPT);
     const result = await chatSession.sendMessage(FINAL_PROMPT);
     //console.log("--", result?.response.text());
     setLoading(false);
