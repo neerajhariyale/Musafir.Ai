@@ -35,7 +35,7 @@ const Hero = () => {
         className="h-[300px] w-[400px] sm:h-[400px] sm:w-[500px] md:h-[700px] md:w-[850px]  lg:h-[700px]  lg:w-[850px] xl:h-[700px]  xl:w-[850px]"
       />
 
-      <Footer />
+{/*       <Footer /> */}
     </div>
   );
 };
