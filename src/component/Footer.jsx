@@ -9,8 +9,8 @@ const Footer = () => {
         <span className="flex justify-center items-center">
           {" "}
           <FcLike />
-{/*         </span>
-        by <span className="text-red-500 font-semibold"> <a href="https://github.com/neerajhariyale" target="_blank" >Neeraj.</a> </span> */}
+        </span>
+{/*         by <span className="text-red-500 font-semibold"> <a href="https://github.com/neerajhariyale" target="_blank" >Neeraj.</a> </span> */}
       </div>
     </div>
   );
